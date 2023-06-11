@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    font-weight: 500;
+}
+/*<header>*/
+header{
+    background-color:#ffc017 ;
+    height: 533px;
+}
+nav{
+    background-color:#ffc017;
+    display: flex;
+    position:fixed;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 72px;
+    z-index: 1;
+}
+nav .nav-list{
+    margin: 26px 0px 0px 700px;
+}
+figure .img-logo{
+    width: 156px;
+    height: 24px;
+    margin: 23px 0px 6px 100%;
+}
+/*revisar <header> nada más*/
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size:smaller;
+    font-weight: 500;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+hr{
+    border: none;
+    border-top: 1px solid black;
+}
+.btn-start a{
+    color: white;
+    background-color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+div .portada-title{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+div .portada-descripcion{
+    font-size: 24px;
+    margin: 20px 0px 60px 0px;
+}
+div .start-read{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    font-size: 20px;
+    padding: 9px 54px 9px 54px;
+    border-radius: 20px;
+}
+header div{
+    position: absolute;
+    margin: 150px 0px 0px 150px;
+}
+/*<main>*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*first part of <main>*/
+main .first-part{
+    border-bottom: 1px solid rgb(185, 183, 183);
+    width: 100vw;
+}
+main div .head-trending{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 0px 10%;
+}
+figure .circle-arrow{
+    width: 20px;
+    margin-right: 13px;
+}
+figure p{
+    color: rgb(81, 81, 81);
+    font-size:15px;
+}
+/*contenedor sección trending*/
+main .trending{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    width: 79%;
+    margin: 20px 0px 38px 10%;
+}
+/* contenedor article */
+main div .trending article{
+    display: grid;
+    grid-template-columns: minmax(10px,auto) minmax(10px,auto);
+}
+main div .trending article h1{
+    color: rgb(223, 222, 222);
+    font-size: 32px;
+    margin-right: 20px;
+}
+main div .trending article div figure img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+main div .trending article div small{
+    color: gray;
+}
+main div .trending article div figure small{
+    color: rgb(36, 36, 36);
+    font-weight: 700;
+    position: absolute;
+    margin: 3px 0px 0px 5px;
+}
+main div .trending article div .head-img,h4, small{
+    margin-bottom: 15px;
+}
+/*second part of <main>*/
+.second-part{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 79%;
+}
+.second-part section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.tb-arti{
+    margin-right: 6%;
+}
+.arti-read{
+    display: grid;
+    grid-template-columns: minmax(50%, auto) minmax(1px,auto);
+    margin-bottom: 9%;
+}
+.perfil-author{
+    margin-bottom: 10px ;
+}
+.perfil-author img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.perfil-author small{
+    position: absolute;
+    margin: 6px 0px 0px 10px;
+    font-weight: 700;
+}
+.content-save img{
+    width: 16px;
+    height: 20px;
+}
+.arti-read div h2,p{
+    margin-bottom: 15px;
+}
+.arti-read div p{
+    color: gray;
+    width: 29rem;
+}
+.arti-read div .content-save small{
+    color: grey;
+}
+.content-img-arti img{
+    width: 100%;
+    margin-top: 4px;
+}
+.cate{
+    background-color: rgb(232, 232, 232);
+    border-radius: 8px;
+    padding: 5px;
+}
+.icon-save{
+    margin-left: 200px;
+}
+/*Discover*/
+.discover p{
+    color: rgb(78, 77, 77);
+    font-weight: 700;
+}
+.discover div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 430px;
+    gap: 10px;
+    margin: 25px 0px 25px 0px;
+}
+.discover div a{
+    text-decoration: none;
+    font-size:small;
+    font-weight: bolder;
+    color: rgb(93, 93, 93);
+    background-color: rgb(235, 235, 235);
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+}
+.discover a{
+    text-decoration: none;
+    color: rgb(2, 162, 2);
+    font-size: 13px;
+}
+/*footer*/
+footer{
+    background-color: #ffc017;
+    text-align: center;
+    padding: 30px;
+}
